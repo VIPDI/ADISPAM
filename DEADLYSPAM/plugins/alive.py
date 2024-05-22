@@ -8,7 +8,7 @@ PIC = config.ALIVE_PIC
 if config.ALIVE_PIC:
     DEADLY_PIC = PIC
 else:
-    DEADLY_PIC = "https://te.legra.ph/file/2e2f78610814092d61103.jpg"
+    DEADLY_PIC = "https://telegra.ph/file/6d1572e7ec3179ae5452f.jpg"
 
 hl = config.CMD_HNDLR
 
@@ -24,7 +24,7 @@ DEADLY += f"═══════════════════\n\n"
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 async def alive(event): 
   if event.sender_id in SUDOERS:
-     Blaze = [[Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/BRANDED_KHUSHI"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/BRANDED_WORLD")], [Button.url("• ʀᴇᴘᴏ •", "https://github.com/WCGKING/KINGSPAM")]]
+     Blaze = [[Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/ll_VIP_SUPPORT_ll"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/II_VIP_CHATTING_ZONE_II")], [Button.url("• ʀᴇᴘᴏ •", "https://github.com/WCGKING/KINGSPAM")]]
      await BOT0.send_file(event.chat_id, DEADLY_PIC, caption=DEADLY, buttons=Blaze) 
   else:
       await event.reply("**ᴅᴇᴘʟᴏʏ ʏᴏᴜʀ ᴏᴡɴ ᴋɪɴɢ x ᴛᴇᴀᴍ ʙʀᴀɴᴅᴇᴅ-ꜱᴘᴀᴍʙᴏᴛ!**") 
