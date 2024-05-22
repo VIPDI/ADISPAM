@@ -10,23 +10,23 @@ ALIVE_IMG = config.ALIVE_PIC
 if config.ALIVE_PIC:
     DEADLY_IMG = ALIVE_IMG
 else:
-    DEADLY_IMG = "https://te.legra.ph/file/2e2f78610814092d61103.jpg"
+    DEADLY_IMG = "https://telegra.ph/file/6d1572e7ec3179ae5452f.jpg"
 
 OWNER_INFO = config.OWNER_NAME
 if config.OWNER_NAME:
     OWNER_NAME = OWNER_INFO
 else:
-    OWNER_NAME = "KING X TEAM BRANDED"
+    OWNER_NAME = "II_ADI_II"
 
 OWNER_ID = config.OWNER_ID
 
 Deadly_Button = [
         [
-        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/BRANDED_KHUSHI"),
-        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/BRANDED_WORLD")
+        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/ll_VIP_SUPPORT_ll"),
+        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/II_VIP_CHATTING_ZONE_II")
         ],
         [
-        Button.url("• Rᴇᴘᴏ •", "https://t.me/B_R_A_N_D_E_D_K_I_N_G")
+        Button.url("• Rᴇᴘᴏ •", "https://t.me/II_ADI_II")
         ]
         ]
         
