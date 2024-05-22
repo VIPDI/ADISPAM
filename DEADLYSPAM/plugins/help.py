@@ -27,11 +27,11 @@ DEAD_HELP += f" `!raid` - to raid\n `!replyraid` - to active reply raid\n `!drep
 
 DEAD_HELP += f" !pornspam - ɪ ᴡɪʟʟ ꜱᴜɢɢᴇꜱᴛ ᴅᴏɴ'ᴛ ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ😂 ↧\n\n"
 
-DEAD_HELP += f"© @BRANDED_WORLD\n"
+DEAD_HELP += f"© @ll_VIP_SUPPORT_ll\n"
 
 
 @BOT0.on(events.NewMessage(incoming=True, pattern='/help'))
 async def help(event):               
     if event.sender_id in SUDOERS:
-       blaze = [[Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/BRANDED_KHUSHI"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/BRANDED_WORLD")]]
+       blaze = [[Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/ll_VIP_SUPPORT_ll"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/II_VIP_CHATTING_ZONE_II")]]
        await BOT0.send_file(event.chat_id, HELP_PIC, caption=DEAD_HELP, buttons=blaze) 
